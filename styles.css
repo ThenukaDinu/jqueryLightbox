@@ -21,6 +21,13 @@ h1 {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+p {
+    font-size: 14px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: gray;
+    font-weight: 550;
+}
+
 a {
     margin: 16px;
     display: inline-block;

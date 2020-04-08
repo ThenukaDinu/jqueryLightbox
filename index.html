@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Summer Vacation</title>
-        <!-- CSS -->
-        <link href="styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <span>—  My Trip to  —</span>
-                <h1>The Golden State</h1>
-            </header>
-            <!-- Thumbnail Images -->
-            <img src="assets/thumbnails/thumb1.jpg" alt="Surfing"/>
-            <img src="assets/thumbnails/thumb2.jpg" alt="Lifeguard Stand"/>
-            <img src="assets/thumbnails/thumb3.jpg" alt="Hot Air Balloon"/>
-            <img src="assets/thumbnails/thumb4.jpg" alt="Field Freedom"/>
-            <img src="assets/thumbnails/thumb5.jpg" alt="Golden Gate Bridge"/>
-            <img src="assets/thumbnails/thumb6.jpg" alt="Pacific Ocean Sunset"/>
-        </div>
-        <!-- JavaScript -->
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Summer Vacation</title>
+    <!-- CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox2-2.11.1/dist/css/lightbox.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span>— My Trip to —</span>
+            <h1>Rainforest</h1>
+            <p>Look deep into nature, and then you will understand everything better</p>
+        </header>
+        <!-- Thumbnail Images -->
+        <a href="/assets/images/image1.jpg" data-lightbox="roadtrip" data-title="Rochester, United States">
+            <img src="assets/thumbnails/thumb1.jpg" alt="Rochester, United States" />
+        </a>
+        <a href="/assets/images/image2.jpg" data-lightbox="roadtrip" data-title="Waterfall in the forest">
+            <img src="assets/thumbnails/thumb2.jpg" alt="Waterfall in the forest" />
+        </a>
+        <a href="/assets/images/image3.jpg" data-lightbox="roadtrip" data-title="Scarlet Macaw">
+            <img src="assets/thumbnails/thumb3.jpg" alt="Scarlet Macaw" />
+        </a>
+        <a href="/assets/images/image4.jpg" data-lightbox="roadtrip" data-title="Scenic view of forest">
+            <img src="assets/thumbnails/thumb4.jpg" alt="Scenic view of forest" />
+        </a>
+        <a href="/assets/images/image5.jpg" data-lightbox="roadtrip" data-title="Photo of green forest">
+            <img src="assets/thumbnails/thumb5.jpg" alt="Photo of green forest" />
+        </a>
+        <a href="/assets/images/image6.jpg" data-lightbox="roadtrip" data-title="Green fem plant photo">
+            <img src="assets/thumbnails/thumb6.jpg" alt="" />
+        </a>
+    </div>
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/lightbox2-2.11.1//dist/js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+            'positionFromTop': 100,
+            disableScrolling: true,
+        })
+    </script>
+</body>
+
 </html>
